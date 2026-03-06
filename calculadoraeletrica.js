@@ -2,7 +2,7 @@ function calceletrica(){
     let conversao = parseInt(prompt('Em qual medida deseja converter?: \n 1 - kw \n 2  - w'))
     let horas = parseInt(prompt('Digite as horas diarias de uso: '))
     let nome = prompt('Digite o nome do item: ')
-    let tarifa = 0.90
+    let tarifa = parseFloat(prompt('Digite p valor da taxa por watt/kilowatt: '))
     switch(conversao){
         case 1:
             let gastokw = parseFloat(prompt('Digite o gasto em kilowatts: '))
